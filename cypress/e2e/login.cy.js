@@ -4,6 +4,7 @@ beforeEach(()  => {
   //Arrange
 cy.visit('http://localhost:4000')
 
+
 })
 
 it('Login com dados válidos deve permitir entrada no sistema', () => {
