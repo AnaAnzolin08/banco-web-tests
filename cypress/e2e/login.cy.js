@@ -13,7 +13,7 @@ it('Login com dados válidos deve permitir entrada no sistema', () => {
 it('Login com dados inválidos deve apresentar mensagem de erro', () => {
   
   cy.fazerLoginComCredenciasInvalidas()
-  cy.get('.toast').should('have.text', 'Erro no login. Tente novamente.')
+  cy.verificarMensagemNoToast('Erro no login. Tente novamente.')
   })
 
 })
