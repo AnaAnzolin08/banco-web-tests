@@ -5,7 +5,7 @@ cy.fixture('credenciais').then(credenciais => {
     })
 
     cy.contains('button', 'Entrar').click()
-
+    
 
     })
 
